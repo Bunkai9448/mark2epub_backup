@@ -36,7 +36,7 @@ They are processed by name order, and will appear correspondingly in the e-book.
 * A `description.json` containing meta-information about the e-book. The key
   `cover_image` should indicate the name of the cover image.
   The key `default_css` is a list of css file names that are applied by default
-  on all chapters.
+  on all chapters. **This is where you write what files you want in the to be created epub too**
   The key `chapters` is a list of dictionaries, each one containing a key `markdown`
   indicating the name of the corresponding markdown file, and a key `css` indicating
   the name of the css file that should be applied specifically to this chapter.
